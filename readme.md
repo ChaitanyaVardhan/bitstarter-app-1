@@ -1,0 +1,1 @@
+This is a barebones bitstarter app written in NODEJS.

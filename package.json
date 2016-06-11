@@ -1,0 +1,33 @@
+{
+  "name": "node-js-bitstarter",
+  "version": "0.0.1",
+  "description": "a sample Node.js app using Express 4",
+  "main": "web.js",
+  "scripts": {
+  "start": "node web.js"
+  },
+  "dependencies": {
+    "express": "^4.13.4"
+  },
+  "engines": {
+    "node": "6.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ChaitanyaVardhan/bitstarter-app-1"
+  },
+  "keywords": [
+  "node",
+  "heroku",
+  "express"
+  ],
+  "author": "Chaitanya Vardhan",
+  "contributors": [
+
+  ],
+  "licence": "MIT"
+}
+
+    
+	
+    

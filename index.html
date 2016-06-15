@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>Bitstarter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" 
 	  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <style>
@@ -16,55 +17,84 @@
   </head>
   <body>
     <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="navbar-inner">
-	<div class="container">
-	  <button type="button" class="btn btn-navbar"
-		  data-toggle="collapse" data-target=".nav-collapse">
+      <div class="container">
+	<div class="navbar-header">
+	  <button type="button" class="navbar-toggle collapsed"
+		  data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+	    <span class="sr-only">Toggle Navigation</span>
 	    <span class="icon-bar"></span>
 	    <span class="icon-bar"></span>
 	    <span class="icon-bar"></span>
           </button>
-	  <a class="brand" href="#">Bitstarter</a>
-  	  <div class="nav-collapse collapse">
-	    <ul class="nav">
+	  <a class="navbar-brand" href="#">Bitstarter</a>
+        </div>
+  	<div id="navbar" class="collapse navbar-collapse">
+	    <ul class="nav navbar-nav">
 	      <li class="active"><a href="#">Home</a></li>
-	      <li><a href="About">About</a></li>
+	      <li><a href="#about">About</a></li>
 	      <li><a href="#contact">Contact</a></li>
 	    </ul>
-	  </div>
-        </div>
+	</div>
       </div>
-git     </nav>
+    </nav>
     <div class="container">
       <div class="row-fluid heading">
 	<div class="col-md-12">
 	  <h1>Product</h1>
 	</div>
       </div>
-      <div class="row subheading">
+      <div class="row-fluid subheading">
 	<div class="col-md-12">
-	  <p>This is my first bitstarter project</p>
+	  <p class="lead">This is my first bitstarter project</p>
         </div>
       </div>
-      <div class="row pitch">
-	<div class="col-md-6 video">
-	  Video
+      <div class="row-fluid pitch">
+	<div class="col-md-5 offset1 video">
+	  <img class="img-polaroid" src="http://placehold.it/480x300">
         </div>
-	<div class="col-md-6">
-	  <div class="thermometer">
-	    Thermometer
+	<div class="col-md-5 actions">
+	  <div class="col-md-8 offset2">
+	    <div class="statistics">
+	      <div class="col-md-4">
+		<div class="linediv-l">
+		  <h3>100</h3> <p>backers</p>
+                </div>
+              </div>
+	      <div class="col-md-4">
+		<div class="linediv-c">
+		  <h3>$6000</h3> <p>of $10000</p>
+		</div>
+              </div>
+	      <div class="col-md-4">
+		<div class="linediv-r">
+		  <h3>10</h3> <p>days left</p>
+                </div>
+              </div>
+            </div>
           </div>
-	  <div class="order">
-	    Order
+        </div>		    
+	<div class="col-md-10 offset1">
+	  <div class="thermometer progress active">
+	    <div class="bar bar-success" style="width: 60%;"></div>
+	    <div class="bar bar-warning" style="width: 40%;"></div>
+          </div>
+	  <div class="span6 offset3 order">
+	    <button class="btn btn-success btn-large">Preorder</button>
           </div>
 	  <div class="social">
-	    Social
+	    <button class="btn btn-twitter"><i class="icon-twitter"></i> | Twitter</button>
+	    <button class="btn btn-facebook"><i class="icon-facebook"></i> | Facebook</button>
           </div>
         </div>
       </div>
-      <div class="row section1">
-	<div class="row-md-12">
-	  Marketing Section 1
+      <div class="row-fluid section1">
+	<div class="row-md-5 offset1 asset">
+	  <img class="img-polaroid" src="http://placehold.it/480x300">
+        </div>
+	<div class="row-md-5 copy">
+	  <p>
+	    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eu efficitur felis. Proin molestie ipsum sapien, et congue sem suscipit quis. Curabitur efficitur sit amet metus quis pellentesque. Quisque sagittis mauris ut viverra sodales. Nam quis ligula mollis, sollicitudin libero vitae, porttitor urna. Fusce nibh tellus, dapibus ut scelerisque et, ullamcorper ac elit. Nullam commodo risus ut velit congue porttitor. Pellentesque leo urna, imperdiet sodales aliquet vitae, cursus eget metus. Nulla in velit quam. Sed venenatis tempor consectetur. Proin ut turpis eu augue gravida ultrices. Curabitur sit amet molestie dui. Nullam laoreet tellus massa, eu cursus mauris molestie id. Aliquam in ex quis erat ornare finibus eu eu libero. Proin efficitur lacinia erat eu venenatis. Integer ex turpis, imperdiet sit amet dolor at, aliquam aliquet enim.
+         </p>
         </div>
       </div>
       <div class="row Marketing Section 2">
@@ -83,5 +113,6 @@ git     </nav>
         </div>
       </div>
     </div>
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
   </body>
 </html>
